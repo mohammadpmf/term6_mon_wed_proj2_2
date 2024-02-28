@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5" dir="rtl">
+        <p>به سایت ما خوش آمدید.</p>
+        <p><a class="text-decoration-none" href="{% url 'signup' %}">برو به صفحه ثبت نام</a></p>
+        <p><a class="text-decoration-none" href="{% url 'login' %}">برو به صفحه ورود</a></p>
+        <p><a class="text-decoration-none" href="{% url 'password_change' %}">برو به صفحه تغییر رمز عبور</a></p>
+        <p><a class="text-decoration-none" href="{% url 'password_reset' %}">برو به صفحه فراموشی رمز عبور</a></p>
+        <p><a class="text-decoration-none" href="{% url 'logout' %}">برو به صفحه خروج</a></p>
+    </div>
+</body>
+</html>
